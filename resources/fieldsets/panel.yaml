@@ -1,0 +1,12 @@
+title: Panel
+fields:
+  -
+    handle: panel_heading
+    field:
+      type: text
+      display: 'Panel Heading'
+  -
+    handle: panel_content
+    field:
+      type: markdown
+      display: 'Panel Content'

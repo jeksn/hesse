@@ -1,0 +1,54 @@
+title: Landing
+tabs:
+  main:
+    display: Main
+    sections:
+      -
+        fields:
+          -
+            handle: title
+            field:
+              type: text
+              required: true
+              validate:
+                - required
+          -
+            handle: subheading
+            field:
+              type: text
+              display: Subheading
+          -
+            handle: heading
+            field:
+              type: text
+              display: Heading
+          -
+            handle: show_info
+            field:
+              type: toggle
+              display: 'Toggle Field'
+      -
+        display: Content
+        fields:
+          -
+            import: panel
+  sidebar:
+    display: Sidebar
+    sections:
+      -
+        fields:
+          -
+            handle: slug
+            field:
+              type: slug
+              localizable: true
+              validate: 'max:200'
+          -
+            handle: parent
+            field:
+              type: entries
+              collections:
+                - pages
+              max_items: 1
+              listable: false
+              localizable: true
