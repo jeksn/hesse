@@ -4,7 +4,10 @@ tabs:
     display: Main
     sections:
       -
+        display: Intro
         fields:
+          -
+            import: hero
           -
             handle: title
             field:

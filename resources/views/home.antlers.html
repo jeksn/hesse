@@ -1,8 +1,13 @@
+<section class="relative flex justify-center">
+    {{ hero_image }}
+        <img src="{{ url }}" alt="{{ alt }}" class="relative filter brightness-50 h-[40vh] w-full object-cover">
+    {{ /hero_image }}
+    <h2 class="absolute text-5xl text-white top-1/2">{{ hero_heading }}</h2>
+</section>
 <section class="max-w-screen-xl mx-auto space-y-4">
     <h1 class="text-4xl">{{ heading }}</h1>
     <p class="text-xl">{{subheading }}</p>
     <span class="text-md">{{ if show_info }}<p>This is an info field.</p>{{/if }}</span>
-
 </section>
 <div class="p-4 bg-gray-300">
     <h2>{{ panel_heading }}</h2>

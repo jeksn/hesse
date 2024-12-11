@@ -1,0 +1,13 @@
+title: Hero
+fields:
+  -
+    handle: hero_image
+    field:
+      container: assets
+      type: assets
+      display: 'Hero Image'
+  -
+    handle: hero_heading
+    field:
+      type: text
+      display: 'Hero Heading'

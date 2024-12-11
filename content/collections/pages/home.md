@@ -7,9 +7,12 @@ subheading: 'This is a subheading'
 heading: Hesse
 show_info: true
 updated_by: 2b602e7c-11a6-405f-af31-4748912895c8
-updated_at: 1733927242
+updated_at: 1733945297
 panel_heading: 'This is a panel'
 panel_content: 'This is the **panel content**'
+hero_image:
+  - rembrandt-flowers-crop-supplied-agnsw.jpg
+hero_heading: 'This is a hero'
 ---
 ## Welcome to your brand new Statamic site!
 
